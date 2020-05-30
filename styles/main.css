@@ -1,0 +1,56 @@
+.jumbotron {
+  margin-bottom: 0rem;
+}
+
+#jumbotron-bear {
+  display: grid;
+  height: 100%;
+}
+
+.jumbotron-bear {
+  width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.display-4 {
+  font-style: oblique;
+}
+
+#container-navigation {
+  background-color: #558b2f;
+}
+
+#container-navigation ul {
+  list-style-type: none;
+  margin-bottom: 0rem;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.links:after {
+  content: '|';
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.links:last-child:after {
+  display: none;
+}
