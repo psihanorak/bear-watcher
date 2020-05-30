@@ -3,12 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <h1>This is my Bear-Watcher exercise!!</h1>
+  <title>Katmai National Park Bear Tracker</title>
+  <script src="https://kit.fontawesome.com/febe1fa3c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.css"> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style>
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-<div id="background"></div>
-  
-  <script type="module" src="main.js"></script> 
-</bo>
+  <div id="jumbotron" class="jumbotron">
+    <h1 class="display-4">Welcome to the Katmai National Park & Preserve, Alaska!</h1>
+    <p class="lead">Katmai was established in 1918 to protect the volcanically devastated region surrounding Novarupta and the Valley of Ten Thousand Smokes. Today, Katmai National Park and Preserve also protects 9,000 years of human history and important habitat for salmon and thousands of brown bears.</p>
+    <hr class="my-4">
+    <p>In the following section you will be introduced to brown bears that congregate along the Brooks River during the months between July and September feeding during the salmon run.</p>
+    <p class="lead">
+      <a id="learn-more" class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
+
+  <div id="jumbotron-bear">
+    <img class="jumbotron-bear" src="./images/jumbotron_bear.png" alt="Brown bear is scavanging.">
+  </div>
+
+  <div id="container-navigation">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="https://www.nps.gov/katm/index.htm" target="_blank">
+        <img src="images/tree-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Katmai National Park & Reserve
+      </a>
+      <ul>
+        <li>
+          <a class="links" href="./index.html">Home</a>
+          <a class="links" href="#">About</a>
+          <a class="links" href="#">Types of Bears</a>
+          <a class="links" href="#">Fattest Bear Award</a>
+          <a class="links" href="https://explore.org/livecams/brown-bears/brown-bear-salmon-cam-brooks-falls" target="_blank">Live Cast</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  <script type="module" src="./javascript/main.js"></script>
+</body>
 </html>
