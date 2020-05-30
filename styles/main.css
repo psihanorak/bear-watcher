@@ -30,13 +30,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar-brand:hover {
-  color: white;
-}
-
 .links {
   color: white;
-  text-decoration: none;
 }
 
 .links:hover {
@@ -52,5 +47,40 @@
 }
 
 .links:last-child:after {
+  display: none;
+}
+
+#container-body {
+  display: grid;
+  height: 100%;
+}
+
+#container-footer.card-footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#container-footer img {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  color:black;
+}
+
+.footer:hover {
+  color: #558b2f;
+  text-decoration: none;
+}
+
+.footer:after {
+  content: '|';
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer:last-child:after {
   display: none;
 }
