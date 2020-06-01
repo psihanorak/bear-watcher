@@ -84,3 +84,25 @@
 .footer:last-child:after {
   display: none;
 }
+
+#bear-form {
+  margin-top: 3rem;
+}
+
+.bear-image {
+  width: 18rem;
+  height: 10rem;
+}
+
+#container-bears {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-body {
+  text-align: center;
+}
