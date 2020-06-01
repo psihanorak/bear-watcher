@@ -37,7 +37,7 @@
         <li>
           <a class="links" href="./index.html">Home</a>
           <a class="links" href="#">About</a>
-          <a class="links" href="#">Types of Bears</a>
+          <a class="links" href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Brown Bears</a>
           <a class="links" href="#">Fattest Bear Award</a>
           <a class="links" href="https://explore.org/livecams/brown-bears/brown-bear-salmon-cam-brooks-falls" target="_blank">Live Cast</a>
         </li>
@@ -45,9 +45,32 @@
     </nav>
   </div>
 
-  <div id="container-body">
-
+  
+  <div id="bear-form" class="container">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div id="form" class="col-6">
+        <form>
+          <div class="form-group">
+            <label for="bear-name">Name</label>
+            <input type="text" class="form-control" id="bear-name" placeholder="Enter a name you would like to call your bear...">
+          </div>
+          <div class="form-group">
+            <label for="bear-image">Image</label>
+            <input type="text" class="form-control" id="bear-image" placeholder="Place your bear's image URL here...">
+          </div>
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col">
+      </div>
+    </div>
   </div>
+
+  <div id="container-bears">
+  </div>
+  
 
   <div id="container-footer" class="card-footer">
     <small class="text-muted"></small>
